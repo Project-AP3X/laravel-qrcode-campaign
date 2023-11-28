@@ -1,0 +1,9 @@
+# Use the official MySQL image as the base image
+FROM mysql:latest
+
+# Set the environment variables for MySQL root user password
+ENV MYSQL_ROOT_PASSWORD=qr-apex-404
+ENV MYSQL_DATABASE=laravel
+
+#docker build -t qrsql -f Dockerfile.mysql .
+#docker run --restart unless-stopped -d --name qrsql -p 3308:3308 qrsql

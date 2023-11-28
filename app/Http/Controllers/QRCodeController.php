@@ -16,7 +16,7 @@ use Endroid\QrCode\Response\QrCodeResponse;
 class QRCodeController extends Controller
 {
     // IP track access key
-    protected $accessKey = '1a16715ccd10b1c6e5e4d5636890f51d';
+    protected $accessKey = '';
 
     /**
      * This generates QR code image from campaign id.
